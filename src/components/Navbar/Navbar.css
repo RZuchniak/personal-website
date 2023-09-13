@@ -1,0 +1,29 @@
+#links {
+    display: flex;
+    background-color: rgb(75, 75, 75);
+    width: 100%;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+}
+
+.text  {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    gap: 50px;
+}
+
+#link1:hover {
+    text-decoration: underline;
+}
+
+#link2:hover {
+    text-decoration: underline;
+}
