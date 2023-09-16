@@ -1,5 +1,6 @@
 #text-box {
-    background-color: rgb(128, 124, 124);
+    background-color: transparent;
     padding: 5%;
     font-family: Arial, Helvetica, sans-serif;
+    height: 640px;
 }

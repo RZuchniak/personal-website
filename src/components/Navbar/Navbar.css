@@ -1,6 +1,6 @@
 #links {
     display: flex;
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(197, 200, 204);
     width: 100%;
     justify-content: center;
     height: 80px;
@@ -21,9 +21,11 @@ ul {
 }
 
 #link1:hover {
+    font-weight: bold;
     text-decoration: underline;
 }
 
 #link2:hover {
     text-decoration: underline;
+    font-weight: bold;
 }
