@@ -3,13 +3,13 @@ import './Description.css'
 export default function Description() {
     return (
       <>
-        <div id="text-box">
-            <h1>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        <div id='content'>
+            <h1 id="header">
+            Hi, I'm Robert Zuchniak
             </h1>
+          <p id="body">
+            I am a student at the University of Ottawa currently pursuing a degree in Computer Science.
+          </p>
         </div>
       </>
   )

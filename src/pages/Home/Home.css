@@ -1,4 +1,9 @@
 .wrap {
-  height: 941px;
+  height: 100%;
   resize: contain;
+  background-image: url(https://wallpaper-house.com/data/out/9/wallpaper2you_363894.jpg);
+}
+
+.layout {
+  height: 100%;
 }
