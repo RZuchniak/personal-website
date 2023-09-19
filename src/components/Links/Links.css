@@ -1,6 +1,6 @@
 #buttons {
     display: flex;
-    gap: 5px;
+    gap: 15px;
     size: 50px;
     justify-content: center;
 }
