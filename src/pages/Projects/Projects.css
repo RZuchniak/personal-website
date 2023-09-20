@@ -1,4 +1,7 @@
 .project-container {
     padding: 25px;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
 }
