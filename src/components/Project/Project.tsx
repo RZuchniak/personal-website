@@ -1,13 +1,18 @@
 import './Project.css'
-export default function Project() {
+
+export type ProjectData = {
+    title: string,
+    description: string
+}
+export default function Project(project: ProjectData) {
     return (
         <>
         <div className='card-box'>
         <h2 className='Project-title'>
-        Title
+        {project.title}
         </h2>
         <p className='description'>
-        This is a project that I made
+        {project.description}
         </p>
         </div>
         </>
