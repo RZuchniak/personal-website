@@ -9,17 +9,20 @@ function Projects() {
         {
             title: 'Personal Website',
             description: 'My first attempt at creating a personal website. Built with react and vite, with the intent of being improved and expanded down the road',
-            link: 'https://github.com/RZuchniak/personal-website'
+            link: 'https://github.com/RZuchniak/personal-website',
+            background: 'https://c.ndtvimg.com/2022-04/9o7fvquo_reddit-r-place-artwork-650_625x300_02_April_22.jpg?im=Resize=(1230,900)'
         },
         {
             title: 'Mosaic',
             description: 'Based off of r/Place, Mosaic allows users to place individual tiles on a board to slowly create art. Built with react for the front-end, with express and postgress for the back-end',
-            link: 'https://github.com/RZuchniak/mosaic_front-end'
+            link: 'https://github.com/RZuchniak/mosaic_front-end',
+            background: 'https://c.ndtvimg.com/2022-04/9o7fvquo_reddit-r-place-artwork-650_625x300_02_April_22.jpg?im=Resize=(1230,900)'
         },
         {
             title: 'A* Maze Visualizer',
             description: 'Using the A* algorithm this program visualizes the shortest path possible to solve a maze. It was built in Python and uses Pygame to display graphics.',
-            link: 'https://github.com/RZuchniak/maze-visualizer'
+            link: 'https://github.com/RZuchniak/maze-visualizer',
+            background: 'https://c.ndtvimg.com/2022-04/9o7fvquo_reddit-r-place-artwork-650_625x300_02_April_22.jpg?im=Resize=(1230,900)'
         }
     ]
 
@@ -33,7 +36,7 @@ function Projects() {
             {
                 projects.map((project) => {
 
-                   return <Project title={project.title} description={project.description} link={project.link} />
+                   return <Project title={project.title} description={project.description} link={project.link} background={project.background}/>
                 })
             }
          </ul>
