@@ -6,7 +6,7 @@ import './Home.css';
 function Home() {
   return (
     <>
-      <div className='wrap'>
+      <div className='wrap' >
         <div className='layout'>
           <Navbar/>
           <Description/>
