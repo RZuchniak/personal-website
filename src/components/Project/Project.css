@@ -1,16 +1,46 @@
 .card-box {
-    padding: 50px;
+    border-width: 3px;
     border-style: solid;
     border-color: black;
     border-radius: 10px;
-    height: 200px;
-    width: 400px;
+    height: 300px;
+    width: 500px;
     box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
     transition: 0.6s;
     text-decoration: none;
     color: black;
+    position: relative;
 }
 
 .card-box:hover {
     box-shadow: 0 0px 32px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.4);
+}
+
+#project-title {
+    opacity: 1;
+    padding: 3%;
+}
+
+#description {
+    padding: 3%;
+    padding-top: 5%;
+}
+
+#background-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    object-fit: cover;
+    overflow: hidden;
+    position: absolute;
+}
+
+#background {
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    object-fit: cover;
+    overflow: hidden;
+    background-size: cover;
 }

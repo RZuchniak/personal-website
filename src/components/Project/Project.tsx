@@ -8,11 +8,14 @@ export type ProjectData = {
 }
 export default function Project(project: ProjectData) {
     return (
-        <a className='card-box' href={project.link} style={{'background-image': project.background} as React.CSSProperties}>
-        <h2 className='Project-title'>
+        <a className='card-box' href={project.link}>
+        <figure id='background-container'>
+            <img id='background' style={{'background-image': project.background} as React.CSSProperties}></img>
+        </figure>    
+        <h2 id='project-title'>
         {project.title}
         </h2>
-        <p className='description'>
+        <p id='description'>
         {project.description}
         </p>
         </a>

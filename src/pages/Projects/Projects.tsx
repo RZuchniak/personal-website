@@ -10,7 +10,7 @@ function Projects() {
             title: 'Personal Website',
             description: 'My first attempt at creating a personal website. Built with react and vite, with the intent of being improved and expanded down the road',
             link: 'https://github.com/RZuchniak/personal-website',
-            background: 'https://c.ndtvimg.com/2022-04/9o7fvquo_reddit-r-place-artwork-650_625x300_02_April_22.jpg?im=Resize=(1230,900)'
+            background: 'url("https://i0.wp.com/www.michigandaily.com/wp-content/uploads/2022/04/r_place-copy.jpg?fit=2400%2C1600&ssl=1")'
         },
         {
             title: 'Mosaic',
