@@ -8,13 +8,13 @@ function Projects() {
     const projects: ProjectData[] = [
         {
             title: 'Personal Website',
-            description: 'My first attempt at creating a personal website. Built with react and vite, with the intent of being improved and expanded down the road',
+            description: 'My first attempt at creating a personal website. Built using react with the intent of being improved and expanded over time',
             link: 'https://github.com/RZuchniak/personal-website',
             background: 'url("https://www.forbes.com/advisor/wp-content/uploads/2022/09/Image_-_How_to_design_a_website_.jpeg.jpg")'
         },
         {
             title: 'Mosaic',
-            description: 'Based off of r/Place, Mosaic allows users to place individual tiles on a board to slowly create art. Built with react for the front-end, with express and postgress for the back-end',
+            description: 'Based off of r/Place, Mosaic allows users to place individual tiles on a board to slowly create art. Built using react, along with socket.io and postgres for the back-end',
             link: 'https://github.com/RZuchniak/mosaic_front-end',
             background: 'url("https://i0.wp.com/www.michigandaily.com/wp-content/uploads/2022/04/r_place-copy.jpg?fit=2400%2C1600&ssl=1")'
         },
